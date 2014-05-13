@@ -1,11 +1,10 @@
 require 'spec_helper'
 
-describe PagesController do
-  
+describe "PagesController" do
 
   describe "GET 'home'" do
     it "devrait réussir" do
-      get '/'
+      get 'home'
       response.should be_success
     end
   end
