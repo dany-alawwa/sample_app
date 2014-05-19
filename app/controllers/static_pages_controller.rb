@@ -1,4 +1,5 @@
 class StaticPagesController < ApplicationController
+  render_views
   def home
 	@title = "Home"
   end
@@ -14,6 +15,10 @@ class StaticPagesController < ApplicationController
 
   def contact
   	@title = "Contact"
-  	
-  end	
+  	  end	
+
+  def signup
+  @title = "Sign up"
+  end
+
 end
