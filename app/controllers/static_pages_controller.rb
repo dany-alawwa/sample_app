@@ -1,5 +1,5 @@
 class StaticPagesController < ApplicationController
-  render_views
+ 
   def home
 	@title = "Home"
   end
